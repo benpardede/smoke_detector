@@ -48,7 +48,7 @@ jobs:
         END
     - name: Deploy to EC2
       env:
-        PATH_FILE: smoke_detector
+        PATH_FILE: smoke_detector_ben
         API_SERVICE_IMAGE: cbagusjk/ml_process_api
         STREAMLIT_SERVICE_NAME: cbagusjk/ml_process_streamlit
 

@@ -19,7 +19,7 @@ valid_feng_set_path:
 test_feng_set_path:
 - data/processed/x_test_feng.pkl
 - data/processed/y_test_feng.pkl
-production_model_path: models/production_model.pkl
+production_model_path: ../models/production_model.pkl
 ohe_stasiun_path: models/ohe_stasiun.pkl
 le_encoder_path: models/le_encoder.pkl
 training_log_path: log/training_log.json
